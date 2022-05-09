@@ -10,15 +10,15 @@
 
 @media (max-width: 992px) {
     #cuurrent-word {
-        font-size:1.5rem;
+        font-size:1.3rem;
     }
 
     h4 {
-        font-size: 1.2rem !important;
+        font-size: 1rem !important;
     }
 
     h1 {
-        font-size:  2rem !important;
+        font-size:  1.5rem !important;
     }
 }
 
