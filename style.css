@@ -18,7 +18,15 @@
     }
 
     h1 {
-        font-size:  1.5rem !important;
+        font-size:  1.2rem !important;
+    }
+
+    input {
+        height: 2.3rem !important;
+    }
+
+    button {
+        height: 2.2rem !important;
     }
 }
 
