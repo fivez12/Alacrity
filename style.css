@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
 .correct {
-    color: green
+    color: #FBAF00;
     ;
 }
 
 .incorrect {
-    color: red;
+    color: #F46036;
     text-decoration: underline;
 }
 
@@ -32,6 +32,16 @@
 }
 
 body { 
+    
     font-family: 'Mukta', sans-serif !important;
+    background: linear-gradient(45deg, hsla(0, 0%, 0%, 1) 19%, hsla(42, 100%, 49%, 1) 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+button, header, #card {
+    background-color: black !important;
 }
 
