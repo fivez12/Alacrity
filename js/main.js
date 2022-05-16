@@ -181,17 +181,7 @@ function startMatch() {
     }
 }
 
- // Highscore based on score value for Session Storage
- if (typeof sessionStorage['highscore'] === 'undefined' || sccore > sessionStorage['highscore']) {
-    sessionStorage['highscore'] = sccore;
-  } else {
-    sessionStorage['highscore'] = sessionStorage['highscore'];
-  }
-
-  // Prevent display of High Score: -1
-  if (sessionStorage['highscore'] >= 0) {
-  highscoreDisplay.innerHTML = sessionStorage['highscore'];
-  }
+ 
  
 
 //Match currentword to word input
